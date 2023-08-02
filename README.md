@@ -2,8 +2,9 @@
 ![image](https://github.com/Yanqing-Jiang/goggins_gpt/assets/94762357/aadf5f10-3bc9-43a6-90e2-3f3bcf62dd2a)
 ## Chat like you're talking to Goggins himself
 
-https://github.com/Yanqing-Jiang/goggins_gpt/blob/main/voice_sample.mp3?raw=true
-
+<video controls="" autoplay="" name="media">
+  <source src="https://github.com/Yanqing-Jiang/goggins_gpt/blob/main/voice_sample.mp3?raw=true" type="audio/mp3">
+</video>
 
 ## [Click here to try it out in Streamlit](https://goggins-gpt.streamlit.app)
 ### - LangChain: chat memory management (remember chat history); prompt building; LLM chaining
