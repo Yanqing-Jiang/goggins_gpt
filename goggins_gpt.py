@@ -84,7 +84,7 @@ def log_to_db(input_data, output_data):
 
 def main():
     st.set_page_config(
-        page_title="Goggins GPT with Voice", page_icon="🎖️")
+        page_title="Goggins GPT with Voice output", page_icon="🎖️")
 
     st.header("🎖️Goggins GPT with Voice output")
     message = st.text_input("Speak your mind to Goggins:")
