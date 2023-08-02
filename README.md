@@ -5,9 +5,11 @@
     var audio = new Audio('https://github.com/user/project/blob/main/audio/sound.mp3?raw=true');
     audio.play();
 </script>
+
 <video controls="" autoplay="" name="media">
     <source src="https://github.com/user/project/blob/main/audio/sound.mp3" type="audio/mp3">
 </video>
+
 ## [Click here to try it out in Streamlit](https://goggins-gpt.streamlit.app)
 ### - LangChain: chat memory management (remember chat history); prompt building; LLM chaining
 ### - Eleven Labs: API to delivery text-to-speech services; VoiceLab to train Goggins unique voice
