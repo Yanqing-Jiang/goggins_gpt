@@ -7,13 +7,12 @@ import requests
 import streamlit as st
 import pyodbc
 
-from dotenv import load_dotenv
-load_dotenv()
-ELEVEN_LABS_API_KEY=load_dotenv("ELEVEN_LABS_API_KEY")
-server = load_dotenv('server')
-database = load_dotenv('database')
-username = load_dotenv('username')
-password = load_dotenv('password')
+
+ELEVEN_LABS_API_KEY=st.secrets["ELEVEN_LABS_API_KEY"]
+server = st.secrets['server']
+database = st.secrets['database']
+username = st.secrets['username']
+password = st.secrets['password']
 driver = '{ODBC Driver 17 for SQL Server}'
 llm= ChatOpenAI (temperature=0.2,model ="gpt-3.5-turbo-16k-0613")
 
@@ -51,7 +50,7 @@ def get_voice_message(message):
     headers = {
         "Accept": "audio/mpeg",
         "Content-Type": "application/json",
-        "xi-api-key": "d7df26f1b9fbb1e8c893637b5cd75abd"
+        "xi-api-key": ELEVEN_LABS_API_KEY
     }
 
     data = {
