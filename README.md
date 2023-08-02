@@ -1,4 +1,4 @@
-# Goggins GPT: tribute to David Goggins
+# Tribute to David Goggins
 ![image](https://github.com/Yanqing-Jiang/goggins_gpt/assets/94762357/aadf5f10-3bc9-43a6-90e2-3f3bcf62dd2a)
 ## Chat like you're talking to Goggins himself
 ### - LangChain: chat memory management (remember chat history); prompt building; LLM chaining
