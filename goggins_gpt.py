@@ -87,8 +87,7 @@ def main():
         page_title="Goggins GPT with Voice", page_icon="🎖️")
 
     st.header("🎖️Goggins GPT with Voice output")
-    message=st.text_area("Speak your mind to Goggins:")
-
+    message = st.text_input("Speak your mind to Goggins:")
 
     if message:
         st.write("Goggins is typing...")
