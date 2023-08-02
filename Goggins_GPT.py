@@ -99,8 +99,8 @@ def main():
         col2.info(result)  
         
         st.write("Goggins is speaking...")
-        st.audio(get_voice_message(result))  
-        log_to_db(message, result['output'])
+        #st.audio(get_voice_message(result))  
+        log_to_db(message, result)
 
 if __name__ == '__main__':
     main()
