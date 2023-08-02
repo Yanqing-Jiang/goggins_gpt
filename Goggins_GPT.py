@@ -87,7 +87,7 @@ def main():
         page_title="Goggins GPT with Voice", page_icon="🎖️")
 
     st.header("🎖️Goggins GPT with Voice output")
-    message=st.text_area("Your question to Goggins:")
+    message=st.text_area("Speak your mind to Goggins:")
 
 
     if message:
@@ -100,7 +100,7 @@ def main():
         col2.info(result)  
         
         st.write("Goggins is speaking...")
-        #st.audio(get_voice_message(result))  
+        st.audio(get_voice_message(result))  
         log_to_db(message, result)
 
 if __name__ == '__main__':
